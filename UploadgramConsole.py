@@ -5,7 +5,7 @@ import UploadgramPyAPI, time, getpass, os
 
 neutralizeColorProblem()
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 __author__ = "tankalxat34"
 __email__ = "tankalxat34@gmail.com"
 
@@ -27,7 +27,6 @@ def _read_doc(command):
 
 _print_title()
 
-ascii_progressbar = '▮'
 read_list = ["policies", "dmca"]
 
 SIMPLE = {}
@@ -53,6 +52,8 @@ This application can upload, download, remove and rename any files from the serv
 
 All commands:
 {}
+
+Also this application support all common commands in cmd.exe
 
        """,
     "exit": lambda: sys.exit()
